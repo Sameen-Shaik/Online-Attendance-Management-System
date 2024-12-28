@@ -1,0 +1,31 @@
+.container {
+    
+    position: relative;
+    top: 10vh;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.login img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    /* gap: 20px; */
+}
+
+.login img:hover {
+    transform: scale(1.1);
+}
+
+.login p {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}

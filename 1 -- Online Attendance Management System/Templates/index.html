@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        nav {
+            box-sizing: border-box;
+            height: 8vh;
+            background-color: black;
+            color: white;            
+            position: sticky;
+            z-index: 1;
+        }
+        nav p{
+            padding: 1em;
+        }
+
+        li{
+            display: inline-block;
+            padding: 1em;
+        }
+
+        .container {
+            
+            position: relative;
+            top: 10vh;
+            height: 75vh;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .login img{
+            width: 250px;
+            height: 250px;
+            border: 2px solid black;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+            /* gap: 20px; */
+        }
+
+        .login img:hover {
+            transform: scale(1.1);
+        }
+
+        .login p {
+            margin-top: 10px;
+            color: black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="login">
+            <a href="Faculty Login Page.html">
+                <img src="faculty.png" alt="Faculty Image">
+            </a>
+            <p>Faculty</p>
+        </div>
+
+        <div class="login">
+            <a href="Student Login Page.html">
+                <img src="student.png" alt="Student Image">
+            </a>
+            <p>Student</p>
+        </div>
+    </div>
+</body>
+
+</html>

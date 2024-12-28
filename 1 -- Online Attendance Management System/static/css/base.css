@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    box-sizing: border-box;
+    height: 8vh;
+    background-color: black;
+    color: white;            
+    position: sticky;
+    z-index: 1;
+}
+nav p{
+    padding: 1em;
+}
+
+li{
+    display: inline-block;
+    padding: 1em;
+}
+
+.nav-anchor{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-anchor:hover{
+    background-color: rgb(89, 89, 87);
+}
+

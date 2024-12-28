@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="login">
+        <a href="Faculty Login Page.html"> 
+            <img src="{{ url_for('static', filename='static/images/faculty.png') }}" alt="Faculty Image"> 
+        </a>
+        <p>Faculty</p>
+    </div>
+
+    <div class="login">
+        <a href="Student Login Page.html">
+            <img src="{{ url_for('static', filename='static/images/student.png') }}" alt="Student Image">
+        </a>
+        <p>Student</p>
+    </div>
+</div>
+
+{% endblock %}
